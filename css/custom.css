@@ -1,0 +1,78 @@
+ul li a.dropdown-toggle .fa-chevron-down {
+    opacity: 0;
+    visibility: none;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* 0047bb */
+
+.section-hero {
+    /* padding: 6rem 0; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.section-hero h1.title {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 75px;
+}
+
+@media (max-width: 767px) {
+    .section-hero h1.title {
+        font-size: 2.3rem;
+        line-height: 45px;
+    }
+}
+
+/* Section Newsletter */
+.section-newsletter {
+    padding: 4rem 0;
+}
+.section-newsletter img {
+    border-radius: 16px;
+}
+.section-newsletter h1.title {
+    font-weight: 600;
+}
+/* About */
+section h1.title {
+    font-weight: 500;
+}
+.ul-list {
+    list-style: ">";
+}
+.ul-list li {
+    margin: 10px 0;
+    padding-left: 1rem;
+}
+
+.section-publishing {
+    padding: 3rem 0;
+}
+
+.section-foryou {
+    background: #f9f9f9;
+    padding: 6rem 0 4rem;
+}
+.pricing-table {
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.book-form input,
+.book-form textarea {
+    margin: 10px 0;
+    padding: .7rem 1rem;
+}
+.book-form textarea {
+    height: 115px;
+}
